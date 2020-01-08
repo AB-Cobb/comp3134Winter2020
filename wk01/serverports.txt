@@ -1,12 +1,12 @@
 What is the definition of a server port?
 	Connection lines that allow remote users to access a service provided by the server.
-What is server port range?
-	
-How many bits doea the above number represent?
-	16 bits (unsighned)
-State 10 common server ports.
-	
 
+What is server port range?
+	0 - 65535
+How many bits doea the above number represent?
+	16 bits
+	
+State 10 common server ports.
     echo 7
     daytime 13
     qotd 17 (Quote of the Day)
