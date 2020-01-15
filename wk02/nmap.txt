@@ -73,6 +73,28 @@ PORT      STATE SERVICE
 49221/tcp open  unknown
 
 Nmap done: 1 IP address (1 host up) scanned in 17.67 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:08 UTC
+Nmap scan report for georgebrown.ca (198.96.86.202)
+Host is up (0.0012s latency).
+rDNS record for 198.96.86.202: gbtv.ca
+Not shown: 89 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+8888/tcp  open  sun-answerbook
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 3.66 seconds
 root@lamp-s-1vcpu-1gb-tor1-01:~#
+
 
 
