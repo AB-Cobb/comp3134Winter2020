@@ -1,0 +1,25 @@
+$ tracert mozilla.org
+
+Tracing route to mozilla.org [63.245.208.195]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     1 ms  10.16.32.1
+  2    10 ms     6 ms    10 ms  198.96.85.3
+  3    11 ms     4 ms    14 ms  ut-hub-gbrownc-if-internet.gtanet.ca [205.211.94.173]
+  4    10 ms     7 ms     3 ms  te0-0-0-1.rcr13.b011027-3.yyz02.atlas.cogentco.com [38.104.251.81]
+  5     4 ms     3 ms     4 ms  te0-0-0-10.ccr31.yyz02.atlas.cogentco.com [66.28.4.165]
+  6    15 ms    11 ms    11 ms  be2993.ccr21.cle04.atlas.cogentco.com [154.54.31.225]
+  7    17 ms    16 ms    19 ms  be2717.ccr41.ord01.atlas.cogentco.com [154.54.6.221]
+  8    28 ms    28 ms    28 ms  be2831.ccr21.mci01.atlas.cogentco.com [154.54.42.165]
+  9    45 ms    40 ms    44 ms  be3035.ccr21.den01.atlas.cogentco.com [154.54.5.89]
+ 10    52 ms    50 ms    70 ms  be3037.ccr21.slc01.atlas.cogentco.com [154.54.41.145]
+ 11    64 ms    63 ms    68 ms  be2041.rcr21.smf01.atlas.cogentco.com [154.54.6.142]
+ 12    69 ms    75 ms    66 ms  te0-0-2-0.nr11.b015947-1.smf01.atlas.cogentco.com [154.24.47.50]
+ 13    65 ms    64 ms    66 ms  38.104.143.138
+ 14    66 ms    65 ms    65 ms  173.225.175.146
+ 15    75 ms   112 ms    79 ms  65.74.145.155
+ 16    65 ms    64 ms    64 ms  ethernet1-13_4094.fw1.untrust.mdc1.mozilla.net [63.245.208.18]
+ 17    64 ms    65 ms    63 ms  mozilla-org.public.mdc1.mozilla.com [63.245.208.195]
+
+Trace complete.
+

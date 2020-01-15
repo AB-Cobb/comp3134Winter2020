@@ -1,0 +1,78 @@
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap mozilla.org
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 15:52 UTC
+Nmap scan report for mozilla.org (63.245.208.195)
+Host is up (0.068s latency).
+rDNS record for 63.245.208.195: mozilla-org.public.mdc1.mozilla.com
+Not shown: 997 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+8080/tcp closed http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 6.50 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap amazon.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 15:54 UTC
+Nmap scan report for amazon.com (176.32.103.205)
+Host is up (0.035s latency).
+Other addresses for amazon.com (not scanned): 176.32.98.166 205.251.242.103
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.90 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 15:54 UTC
+Nmap scan report for georgebrown.ca (198.96.86.202)
+Host is up (0.00095s latency).
+rDNS record for 198.96.86.202: dmzcms10.georgebrown.ca
+Not shown: 987 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+8888/tcp  open  sun-answerbook
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 20.77 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 445 georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 15:56 UTC
+Nmap scan report for georgebrown.ca (198.96.86.202)
+Host is up (0.00098s latency).
+rDNS record for 198.96.86.202: gbtv.ca
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 49000-50000 georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 15:57 UTC
+Nmap scan report for georgebrown.ca (198.96.86.202)
+Host is up (0.0011s latency).
+rDNS record for 198.96.86.202: gbtv.ca
+Not shown: 996 filtered ports
+PORT      STATE SERVICE
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49168/tcp open  unknown
+49221/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 17.67 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+
