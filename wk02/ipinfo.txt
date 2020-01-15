@@ -1,0 +1,25 @@
+google.com
+	216.58.204.142 (par21s05-in-f142.1e100.net)
+	
+netflix.com
+	52.210.7.69 (ec2-52-210-7-69.eu-west-1.compute.amazonaws.com)
+	52.31.182.100 (ec2-52-31-182-100.eu-west-1.compute.amazonaws.com)
+	52.19.40.147 (ec2-52-19-40-147.eu-west-1.compute.amazonaws.com)
+	52.211.42.108 (ec2-52-211-42-108.eu-west-1.compute.amazonaws.com)
+	52.211.94.145 (ec2-52-211-94-145.eu-west-1.compute.amazonaws.com)
+	34.250.3.119 (ec2-34-250-3-119.eu-west-1.compute.amazonaws.com)
+	34.250.41.147 (ec2-34-250-41-147.eu-west-1.compute.amazonaws.com)
+	54.171.116.69 (ec2-54-171-116-69.eu-west-1.compute.amazonaws.com)
+	
+cbc.ca
+	95.100.98.148 (a95-100-98-148.deploy.static.akamaitechnologies.com)
+	
+cisco.com
+	72.163.4.185 (redirect-ns.cisco.com)
+
+reddit.com
+	151.101.193.140 (151.101.193.140)
+	151.101.65.140 (151.101.65.140)
+	151.101.1.140 (151.101.1.140)
+	151.101.129.140 (151.101.129.140)
+
