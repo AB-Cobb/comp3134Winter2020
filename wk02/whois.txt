@@ -1,0 +1,293 @@
+
+########### MOZILLA ############
+Domain:		mozilla.net
+Domain Name: mozilla.net
+Registry Domain ID: 831289_DOMAIN_NET-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2019-12-29T02:06:58-0800
+Creation Date: 1998-01-30T21:00:00-0800
+Registrar Registration Expiration Date: 2022-01-29T00:00:00-0800
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Registrant Organization: Mozilla Corporation
+Registrant State/Province: CA
+Registrant Country: US
+Admin Organization: Mozilla Corporation
+Admin State/Province: CA
+Admin Country: US
+Tech Organization: Mozilla Corporation
+Tech State/Province: CA
+Tech Country: US
+Name Server: ns1-240.akam.net
+Name Server: ns5-65.akam.net
+Name Server: ns7-66.akam.net
+Name Server: ns4-64.akam.net
+DNSSEC: signedDelegation
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2020-01-14T18:12:41-0800 <<<
+
+########### AMAZON ############
+Domain Name: amazon.com
+Registry Domain ID: 281209_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2019-08-26T12:19:56-0700
+Creation Date: 1994-10-31T21:00:00-0800
+Registrar Registration Expiration Date: 2024-10-30T00:00:00-0700
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registry Registrant ID: 
+Registrant Name: Hostmaster, Amazon Legal Dept.
+Registrant Organization: Amazon Technologies, Inc.
+Registrant Street: P.O. Box 8102
+Registrant City: Reno
+Registrant State/Province: NV
+Registrant Postal Code: 89507
+Registrant Country: US
+Registrant Phone: +1.2062664064
+Registrant Phone Ext: 
+Registrant Fax: +1.2062667010
+Registrant Fax Ext: 
+Registrant Email: email@amazon.com
+Registry Admin ID: 
+Admin Name: Hostmaster, Amazon Legal Dept.
+Admin Organization: Amazon Technologies, Inc.
+Admin Street: P.O. Box 8102
+Admin City: Reno
+Admin State/Province: NV
+Admin Postal Code: 89507
+Admin Country: US
+Admin Phone: +1.2062664064
+Admin Phone Ext: 
+Admin Fax: +1.2062667010
+Admin Fax Ext: 
+Admin Email: email@amazon.com
+Registry Tech ID: 
+Tech Name: Hostmaster, Amazon Legal Dept.
+Tech Organization: Amazon Technologies, Inc.
+Tech Street: P.O. Box 8102
+Tech City: Reno
+Tech State/Province: NV
+Tech Postal Code: 89507
+Tech Country: US
+Tech Phone: +1.2062664064
+Tech Phone Ext: 
+Tech Fax: +1.2062667010
+Tech Fax Ext: 
+Tech Email: email@amazon.com
+Name Server: ns2.p31.dynect.net
+Name Server: pdns1.ultradns.net
+Name Server: ns4.p31.dynect.net
+Name Server: ns1.p31.dynect.net
+Name Server: pdns6.ultradns.co.uk
+Name Server: ns3.p31.dynect.net
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2020-01-14T23:57:29-0800 <<<
+
+########## GBC ##########
+Domain Name: georgebrown.ca
+Registry Domain ID: D121739-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: www.webnames.ca
+Updated Date: 2019-10-26T15:06:13Z
+Creation Date: 2002-07-04T08:35:23Z
+Registry Expiry Date: 2020-07-04T04:00:00Z
+Registrar: Webnames.ca Inc.
+Registrar IANA ID: 456
+Registrar Abuse Contact Email:
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: R21312-CIRA
+Registrant Name: George Brown College (Toronto)
+Registrant Organization:
+Registrant Street: P.O. Box 1015 Station B
+Registrant City: Toronto
+Registrant State/Province: ON
+Registrant Postal Code: M5T2T9
+Registrant Country: CA
+Registrant Phone: +1.4164155000
+Registrant Phone Ext: 5012
+Registrant Fax: +1.4164154667
+Registrant Fax Ext:
+Registrant Email: email@georgebrown.ca
+Registry Admin ID: C883431-CIRA
+Admin Name: Andrew Riem
+Admin Organization: George Brown College
+Admin Street: P.O. Box 1015 Station B
+Admin City: Toronto
+Admin State/Province: ON
+Admin Postal Code: M5T2T9
+Admin Country: CA
+Admin Phone: +1.4164155000
+Admin Phone Ext: 5012
+Admin Fax: +1.4164154667
+Admin Fax Ext:
+Admin Email: email@georgebrown.ca
+Registry Tech ID: C883432-CIRA
+Tech Name: Dorin Grunberg
+Tech Organization: George Brown College
+Tech Street: P.O. Box 1015 Station B
+Tech City: Toronto
+Tech State/Province: ON
+Tech Postal Code: M5T2T9
+Tech Country: CA
+Tech Phone: +1.4164155000
+Tech Phone Ext: 4935
+Tech Fax: +1.4164154836
+Tech Fax Ext:
+Tech Email: email@georgebrown.ca
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: ns1.d-zone.ca
+Name Server: ns1.georgebrown.ca
+Name Server: ns2.d-zone.ca
+Name Server: ns2.georgebrown.ca
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2020-01-13T19:53:05Z <<<
+
+########## MICROSOFT ############
+Domain Name: microsoft.com
+Registry Domain ID: 2724960_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2014-10-15T04:00:12-0700
+Creation Date: 1991-05-01T21:00:00-0700
+Registrar Registration Expiration Date: 2021-05-02T21:00:00-0700
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registry Registrant ID: 
+Registrant Name: Domain Administrator
+Registrant Organization: Microsoft Corporation
+Registrant Street: One Microsoft Way, 
+Registrant City: Redmond
+Registrant State/Province: WA
+Registrant Postal Code: 98052
+Registrant Country: US
+Registrant Phone: +1.4258828080
+Registrant Phone Ext: 
+Registrant Fax: +1.4259367329
+Registrant Fax Ext: 
+Registrant Email: email@microsoft.com
+Registry Admin ID: 
+Admin Name: Domain Administrator
+Admin Organization: Microsoft Corporation
+Admin Street: One Microsoft Way, 
+Admin City: Redmond
+Admin State/Province: WA
+Admin Postal Code: 98052
+Admin Country: US
+Admin Phone: +1.4258828080
+Admin Phone Ext: 
+Admin Fax: +1.4259367329
+Admin Fax Ext: 
+Admin Email: email@microsoft.com
+Registry Tech ID: 
+Tech Name: MSN Hostmaster
+Tech Organization: Microsoft Corporation
+Tech Street: One Microsoft Way, 
+Tech City: Redmond
+Tech State/Province: WA
+Tech Postal Code: 98052
+Tech Country: US
+Tech Phone: +1.4258828080
+Tech Phone Ext: 
+Tech Fax: +1.4259367329
+Tech Fax Ext: 
+Tech Email: email@microsoft.com
+Name Server: ns4.msft.net
+Name Server: ns3.msft.net
+Name Server: ns2.msft.net
+Name Server: ns1.msft.net
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2020-01-12T22:58:22-0800 <<<
+
+########### COBBS-WEB ###########
+Domain Name: cobbs-web.com
+Registry Domain ID: 107956740_DOMAIN_COM-VRSN
+Registrar WHOIS Server: WHOIS.ENOM.COM
+Registrar URL: WWW.ENOM.COM
+Updated Date: 2019-12-03T10:50:05.00Z
+Creation Date: 2003-12-09T14:05:41.00Z
+Registrar Registration Expiration Date: 2020-12-09T19:05:41.00Z
+Registrar: ENOM, INC.
+Registrar IANA ID: 48
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant Street: 
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: AB
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: CA
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Phone Ext: 
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Email: https://tieredaccess.com/contact/60b327be-877e-4a26-9ec2-5d65261391f6
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY
+Admin Street: 
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY
+Admin Phone Ext: 
+Admin Fax: REDACTED FOR PRIVACY
+Admin Email: REDACTED FOR PRIVACY
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization: REDACTED FOR PRIVACY
+Tech Street: REDACTED FOR PRIVACY
+Tech Street: 
+Tech City: REDACTED FOR PRIVACY
+Tech State/Province: REDACTED FOR PRIVACY
+Tech Postal Code: REDACTED FOR PRIVACY
+Tech Country: REDACTED FOR PRIVACY
+Tech Phone: REDACTED FOR PRIVACY
+Tech Phone Ext: 
+Tech Fax: REDACTED FOR PRIVACY
+Tech Email: REDACTED FOR PRIVACY
+Name Server: NS5.MODSERVER.COM
+Name Server: NS6.MODSERVER.COM
+DNSSEC: unsigned
+Registrar Abuse Contact Email: email@ENOM.COM
+Registrar Abuse Contact Phone: +1.4259744689
+URL of the ICANN WHOIS Data Problem Reporting System: HTTP://WDPRS.INTERNIC.NET/
+>>> Last update of WHOIS database: 2020-01-15T15:26:30.00Z <<<
