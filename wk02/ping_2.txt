@@ -1,0 +1,13 @@
+$ ping 159.203.34.96
+
+Pinging 159.203.34.96 with 32 bytes of data:
+Reply from 159.203.34.96: bytes=32 time=6ms TTL=57
+Reply from 159.203.34.96: bytes=32 time=4ms TTL=57
+Reply from 159.203.34.96: bytes=32 time=5ms TTL=57
+Reply from 159.203.34.96: bytes=32 time=3ms TTL=57
+
+Ping statistics for 159.203.34.96:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 6ms, Average = 4ms
+
