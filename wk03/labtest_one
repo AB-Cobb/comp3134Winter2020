@@ -1,0 +1,274 @@
+Whiting Turner Corp
+
+# 1) open ports
+# FTP - CLOSED (FILTERED)
+
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 20-21 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:29 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.032s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT   STATE    SERVICE
+    20/tcp filtered ftp-data
+    21/tcp filtered ftp
+
+    Nmap done: 1 IP address (1 host up) scanned in 1.58 seconds
+
+# SSH  - OPEN
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 443 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:31 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.031s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT    STATE SERVICE
+    443/tcp open  https
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
+
+# TELNET CLOSED (FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 23 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:33 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.032s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT   STATE    SERVICE
+    23/tcp filtered telnet
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+
+#SMTP CLOSED (FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 587 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:34 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.031s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT    STATE    SERVICE
+    587/tcp filtered submission
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 465 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:35 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.032s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT    STATE    SERVICE
+    465/tcp filtered smtps
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# DNS CLOSED (FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 53 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:36 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.031s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT   STATE    SERVICE
+    53/tcp filtered domain
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.57 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# HTTP OPEN
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:37 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.031s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT   STATE SERVICE
+    80/tcp open  http
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# POP3 CLOSED (FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 110 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:37 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.032s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT    STATE    SERVICE
+    110/tcp filtered pop3
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+    #IMAP CLOSED (FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 143 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:38 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.031s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT    STATE    SERVICE
+    143/tcp filtered imap
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.57 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# MySQL CLOSED(FILTERED)
+    root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 3306 WHITING-TURNER.COM
+
+    Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 15:39 UTC
+    Nmap scan report for WHITING-TURNER.COM (35.185.107.183)
+    Host is up (0.032s latency).
+    rDNS record for 35.185.107.183: 183.107.185.35.bc.googleusercontent.com
+
+    PORT     STATE    SERVICE
+    3306/tcp filtered mysql
+
+    Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# 2) Company Info
+    Num Employees = 3486 (est.) (Jan 2020)
+    CEO = Timothy J. Regan
+    CFO = none executives conist of only CEO and COO (Anthony Moag)
+    President = Timothy J. Regan
+    Current Job postings = 57 jobs at The Whiting-Turner Contracting Company
+
+        Helpdesk Technician
+        Towson, MD
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        18 days ago
+
+        Entry-Level Engineer
+        United States
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        7 months ago
+
+        Schedule Engineer
+        Towson, MD
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        7 months ago
+
+        Security Technician
+        Towson, MD
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        5 months ago
+
+        Project Manager
+        Honolulu, HI
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        7 months ago
+
+        Marketing Assistant
+        Charlotte, NC
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        8 days ago
+
+        Project Accountant
+        Herndon, VA
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        29 days ago
+
+        Marketing Assistant
+        Boston, MA
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        18 days ago
+
+        Scheduling Manager
+        Towson, MD
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        4 months ago
+
+        Quality Manager
+        Sacramento, CA
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        1 day ago
+
+        Quality Manager
+        Mountain View, CA
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        1 day ago
+
+        Project Manager
+        Boston, MA
+        The Whiting-Turner Contracting Company is an Equal Opportunity Employer, includi...
+        18 days ago
+
+    Headquaters loc = 300 East Joppa Road, Towson, MD 21286, US
+
+# 3) domain reg Info
+    Domain Name: WHITING-TURNER.COM
+    Registry Domain ID: 672501_DOMAIN_COM-VRSN
+    Registrar WHOIS Server: whois.networksolutions.com
+    Registrar URL: http://networksolutions.com
+    Updated Date: 2016-04-15T15:59:08Z
+    Creation Date: 1997-12-09T05:00:00Z
+    Registry Expiry Date: 2024-12-08T05:00:00Z
+    Registrar: Network Solutions, LLC
+    Registrar IANA ID: 2
+    Registrar Abuse Contact Email: abuse@web.com
+    Registrar Abuse Contact Phone: +1.8003337680
+    Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+    Name Server: NS59.WORLDNIC.COM
+    Name Server: NS60.WORLDNIC.COM
+    DNSSEC: unsigned
+    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+    >>> Last update of whois database: 2019-10-22T11:52:04Z <<<
+
+# 4) Verify Server comunication : YES
+    root@lamp-s-1vcpu-1gb-tor1-01:~# ping whiting-turner.com
+    PING whiting-turner.com (35.185.107.183) 56(84) bytes of data.
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=1 ttl=58 time=31.8 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=2 ttl=58 time=31.2 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=3 ttl=58 time=31.2 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=4 ttl=58 time=31.2 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=5 ttl=58 time=31.3 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=6 ttl=58 time=31.3 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=7 ttl=58 time=31.3 ms
+    64 bytes from 183.107.185.35.bc.googleusercontent.com (35.185.107.183): icmp_seq=8 ttl=58 time=31.1 ms
+    ^C
+    --- whiting-turner.com ping statistics ---
+    8 packets transmitted, 8 received, 0% packet loss, time 7010ms
+    rtt min/avg/max/mdev = 31.181/31.356/31.800/0.295 ms
+    root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+# 5) Route from local
+    $ tracert whiting-turner.com
+
+    Tracing route to whiting-turner.com [35.185.107.183]
+    over a maximum of 30 hops:
+
+    1     7 ms     7 ms     2 ms  10.16.32.1
+    2     4 ms     2 ms     1 ms  198.96.85.3
+    3    88 ms     6 ms     8 ms  ut-hub-gbrownc-if-re.gtanet.ca [205.211.94.169]
+    4     3 ms     2 ms     2 ms  66.97.23.57
+    5     4 ms    17 ms     9 ms  66.97.16.22
+    6    12 ms     2 ms     3 ms  74.125.48.230
+    7    26 ms     6 ms     3 ms  74.125.244.147
+    8    19 ms    40 ms    31 ms  172.253.76.214
+    9    49 ms    35 ms    40 ms  142.250.57.138
+    10    24 ms    57 ms    30 ms  172.253.71.185
+    11    36 ms   100 ms    37 ms  216.239.50.98
+    12    33 ms    46 ms    37 ms  216.239.50.206
+    13     *        *        *     Request timed out.
+    14     *        *        *     Request timed out.
+    15     *        *        *     Request timed out.
+    16     *        *        *     Request timed out.
+    17     *        *        *     Request timed out.
+    18     *        *        *     Request timed out.
+    19     *        *        *     Request timed out.
+    20     *        *        *     Request timed out.
+    21     *        *        *     Request timed out.
+    22    34 ms    34 ms    33 ms  183.107.185.35.bc.googleusercontent.com [35.185.107.183]
+
+    Trace complete.
