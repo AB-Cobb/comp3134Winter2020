@@ -1,0 +1,36 @@
+#comand
+tcpdump tcp
+
+# Packet one
+
+15:27:48.355755 IP 198.96.85.21.65401 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 2752678984, win 64240, options [mss 1300,nop,wscale 8,nop,nop,sackOK], length 0
+15:27:48.355845 IP lamp-s-1vcpu-1gb-tor1-01.http > 198.96.85.21.65401: Flags [S.], seq 177527985, ack 2752678985, win 29200, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+15:27:48.364651 IP 198.96.85.21.65401 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 512, length 0
+15:27:48.375736 IP 198.96.85.21.65401 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:25, ack 1, win 512, length 24: HTTP
+15:27:48.375788 IP lamp-s-1vcpu-1gb-tor1-01.http > 198.96.85.21.65401: Flags [.], ack 25, win 229, length 0
+15:27:48.883751 IP 198.96.85.21.65401 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 25, ack 1, win 512, length 0
+15:27:48.884202 IP lamp-s-1vcpu-1gb-tor1-01.http > 198.96.85.21.65401: Flags [F.], seq 1, ack 26, win 229, length 0
+15:27:48.895706 IP 198.96.85.21.65401 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2, win 512, length 0
+
+# http packet from my local machine(198.96.85.21) from port 65401, hand shake sucessfull
+
+#packet two
+
+15:31:48.802932 IP 198.96.85.21.59745 > lamp-s-1vcpu-1gb-tor1-01.https: Flags [S], seq 1490476876, win 64240, options [mss 1300,nop,wscale 8,nop,nop,sackOK], length 0
+15:31:48.803008 IP lamp-s-1vcpu-1gb-tor1-01.https > 198.96.85.21.59745: Flags [R.], seq 0, ack 1490476877, win 0, length 0
+
+# https (port 443) packet from my local machine(198.96.85.21) from port 59745, hand shack unsucessfull (R flag reseting comunication) 
+
+# packet three
+
+15:33:30.226709 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 108:144, ack 1, win 333, length 36
+15:33:30.226767 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 144:252, ack 1, win 333, length 108
+15:33:30.226809 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 252:288, ack 1, win 333, length 36
+15:33:30.227960 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 288:468, ack 1, win 333, length 180
+15:33:30.228012 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 468:504, ack 1, win 333, length 36
+15:33:30.228074 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 504:660, ack 1, win 333, length 156
+15:33:30.228115 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 660:696, ack 1, win 333, length 36
+15:33:30.228190 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.21.65046: Flags [P.], seq 696:852, ack 1, win 333, length 156
+15:33:30.228681 IP 198.96.85.21.65046 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 507, length 0
+
+#ssh (port 22) packet from server to local, push flag meaning data is being transmitted with out need for ack
