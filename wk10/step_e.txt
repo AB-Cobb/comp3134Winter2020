@@ -1,0 +1,2 @@
+to prevent errors I used File_exists method to check the directory before printing, if the file didn't exist I set path to '.'
+to prevent traverasal out side of web root I used the realpath meothod to transalete the relitive path to an absolute path, if the absolute path did not start with a sub string equal to the web root I set the path to '.'

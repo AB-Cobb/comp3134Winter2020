@@ -1,0 +1,3 @@
+The browser displays the contents of the directory given by the relitive path q
+by modifing the URL so that ?q= a directory out side of the web root a hacker could see what files exist on the droplet giving away sensitive infomation about OS version , appllications and security setting on the droplet 
+by entering a non existant directory we are able to see the web directory structure in the error message giving us a good idea of the system the drop let is running
