@@ -1,0 +1,9 @@
+# 1
+No Results found as Ben is set to inactive
+# 2 
+Returns results for Ben as the "AND active = 1;" section of the query string is commented out by -- 
+# 3
+Returns all active members as firstname LIKE 'Ben' OR 1=1 will always evaluate to true since False OR True is True
+
+# Part H
+No Resulst for each query as expected, 
